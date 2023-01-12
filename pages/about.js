@@ -3,7 +3,7 @@ import Hero from 'components/hero'
 import PostBody from 'components/post-body'
 import Contact from 'components/contact'
 import { TwoColumn, TwoColumnMain, TwoColumnSidebar } from 'components/two-column'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import eyecatch from 'images/about.jpg'
 
 export default function About () {
@@ -16,9 +16,9 @@ export default function About () {
           src={eyecatch}
           alt=""
           responsive
-          sizes="(min-width: 1152px) 1152px, 100vw"
+          sizes="(min-width: 1152px) 1152px,100vw"
           priority
-          placeholder='blur'
+          placeeholder="blur"
           />
       </figure>
 
