@@ -8,9 +8,11 @@ export default function Schedule({
     eyecatch,
     categories,
 }) {
-    <Container>
-        <h1>{title}</h1>
-    </Container>
+    return (
+        <Container>
+            <h1>{title}</h1>
+        </Container>
+    )
 }
 
 export async function getStaticProps() {
